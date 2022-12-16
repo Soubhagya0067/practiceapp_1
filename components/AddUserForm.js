@@ -7,7 +7,7 @@ const AddUserForm = () => {
         <input
           type="text"
           placeholder="Firstname"
-          id="firstname"
+          // id="firstname"
           name="firstname"
           className="border w-full px-5 py-3 focus:outline-none rounded-md my-2"
         />
@@ -17,7 +17,7 @@ const AddUserForm = () => {
         <input
           type="text"
           placeholder="Lastname"
-          id="lastname"
+          // id="lastname"
           name="lastname"
           className="border w-full px-5 py-3 focus:outline-none rounded-md my-2"
         />
@@ -27,7 +27,7 @@ const AddUserForm = () => {
         <input
           type="email"
           placeholder="Email"
-          id="email"
+          // id="email"
           name="email"
           className="border w-full px-5 py-3 focus:outline-none rounded-md my-2"
         />
@@ -36,7 +36,7 @@ const AddUserForm = () => {
         <input
           type="password"
           placeholder="Password"
-          id="password"
+          // id="password"
           name="password"
           className="border w-full px-5 py-3 focus:outline-none rounded-md my-2"
         />
@@ -44,7 +44,7 @@ const AddUserForm = () => {
       <div className="input-type">
         <input
           type="date"
-          id="dob"
+          // id="dob"
           name="dob"
           className="border px-5 py-3 focus:outline-none rounded-md my-2"
         />
@@ -54,7 +54,7 @@ const AddUserForm = () => {
         <div className="form-check my-2">
           <input
             type="radio"
-            id="male"
+            // id="male"
             name="gender"
             value="male"
             className="form-check-input appearance-none rounded-full h-4 w-4 border border-gray-300 bg-white checked:bg-green-500 checked:border-green-500 focus:outline-none tranition duration-200 mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2 cursor-pointer"
@@ -66,7 +66,7 @@ const AddUserForm = () => {
         <div className="form-check my-2">
           <input
             type="radio"
-            id="female"
+            // id="female"
             name="gender"
             value="female"
             className="form-check-input appearance-none rounded-full h-4 w-4 border border-gray-300 bg-white checked:bg-green-500 checked:border-green-500 focus:outline-none tranition duration-200 mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2 cursor-pointer"
@@ -78,7 +78,7 @@ const AddUserForm = () => {
         <div className="form-check my-2">
           <input
             type="radio"
-            id="others"
+            // id="others"
             name="gender"
             value="others"
             className="form-check-input appearance-none rounded-full h-4 w-4 border border-gray-300 bg-white checked:bg-green-500 checked:border-green-500 focus:outline-none tranition duration-200 mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2 cursor-pointer"
